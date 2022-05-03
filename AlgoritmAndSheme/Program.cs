@@ -25,7 +25,7 @@
                 Console.WriteLine("Пользователь не найден");
                 Main();
             }
-
+            Console.WriteLine($"Здравствуйте, {CurrentUser.Name}");
             if (!CurrentUser.IsPremium)
             {
                 ShowAds();
